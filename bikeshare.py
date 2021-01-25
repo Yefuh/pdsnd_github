@@ -58,6 +58,7 @@ def load_data(city, month, day):
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
+	This has just been written for the purpose of refactoring code
     """
     # The data file is being read into dataframe and day and month extracted from datetime format
     df = pd.read_csv(CITY_DATA[city])
@@ -155,7 +156,7 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """Displays statistics on bikeshare users. Code refactoring is done here too"""
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
