@@ -4,6 +4,7 @@ This information was provided and is made ready to be pushed to the documentatio
 
 ### Project Title
 Replace the Project Title
+This is an added text to provide a change on the documentation branch. 
 
 ### Description
 Describe what your project is about and what it does
